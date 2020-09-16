@@ -6,7 +6,7 @@ import lombok.Getter;
 import lombok.Setter;
 import lombok.ToString;
 
-@Getter
+@Getter 
 @Setter
 @ToString
 public class BoardVO {
@@ -14,6 +14,7 @@ public class BoardVO {
 	private String title;
 	private String writer;
 	private String content;
-	private Date createDate=new Date();
-	private int cnt=0;
-}
+	private Date createDate = new Date();
+	private int cnt;
+} 
+
